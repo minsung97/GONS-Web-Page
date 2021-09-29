@@ -1,0 +1,668 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	font-family : "Nanum Gothic";
+}
+
+html
+{
+	width: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+
+body
+{
+	margin : 0%;
+	width : 100%;
+	height : 100%;
+
+	display : flex;
+	flex-flow : column;
+}
+
+a
+{
+	text-decoration:none ; 
+	color:#000000;
+}
+@media all and (max-width : 992px)
+{
+	body > header
+	{
+		height : 150px;
+	}	
+}
+
+
+@media all and (min-width : 992px)
+{
+	body > header
+	{
+		height : 100px;
+	}	
+}
+
+
+body > header > #container_row_1
+{
+	height : 20px;
+	padding : 0px;
+}
+
+body > header > #container_row_2
+{
+	height : 80px;
+	padding : 0px;
+}
+
+
+
+body > header > .container-xxl > .header_row_2
+{
+	height: 100%;
+	width : 100%;
+}
+
+
+body > header > .container-xxl > .header_row_2 > #header_col_1
+{
+	height: 100%;
+	padding : 0px;
+}
+
+@media all and (max-width : 992px)
+{
+
+	body > header > .container-xxl > .header_row_2 > #header_col_1 > #header_logo_img
+	{
+		width: 304px;
+		height: 80px;
+		margin : 0px 0px 0px 20px;
+		float : left;
+	}
+	
+}
+@media all and (min-width : 992px)
+{
+
+	body > header > .container-xxl > .header_row_2 > #header_col_1 > #header_logo_img
+	{
+		width: 304px;
+		height: 80px;
+		margin : 0px 0px 0px 20px;
+		float : right;
+	}
+	
+}
+
+
+body > header > .container-xxl > .header_row_2 > #header_col_2
+{
+	height: 50%;
+	padding : 0px;
+}
+
+
+body > header > .container-xxl > .header_row_2 > #header_col_2 > .top_menu_item
+{
+	width: 30%;
+	float : right;
+	text-align: center;
+	padding : 15px 0px 45px 0px;
+	font-size : 23px;
+	font-weight: 600;
+}
+
+
+
+body > header > .container-xxl > .header_row_2 > #header_col_3
+{
+	height: 100%;
+	padding : 0px;
+}
+
+body > header > .container-xxl > .header_row_2 > #header_col_3 > #child_company_link
+{
+	width : 200px;
+	height : 80px;
+
+}
+
+
+body > header > .container-xxl > .header_row_2 > #header_col_4
+{
+	width : 60px;
+	height: 60px;
+	padding : 10px 10px 0px 0px;
+	float : right;
+}
+
+body > header > .container-xxl > .header_row_2 > #header_col_4 > #button_image
+{
+	
+	display : block;
+	margin : 10px 0px;
+
+}
+
+body > header > #container_row_4
+{
+	display: none;
+	padding: 0px;
+	width : 100%;
+}
+
+body > header > #container_row_4 > .hidden_menu
+{
+	padding: 1% 0% 1% 0%;
+	z-index: 2;
+	float : right;
+	width : 30%;
+	height : 50px;
+	text-align : center;
+	line-height: 30px;
+	font-size : 22px;
+	font-weight: 600;
+}
+
+
+body > header > #sub_header_1
+{
+	display: none;
+	height: 220px;
+	padding: 0px;
+}
+
+body > header #sub_header_row_1
+{
+	height: 20%;
+	padding: 0px;
+}
+
+body > header #sub_header_row_2
+{
+	height: 20%;
+	padding: 0px;
+}
+
+body > header #sub_header_row_3
+{
+	height: 20%;
+	padding: 0px;
+}
+
+body > header #sub_header_row_4
+{
+	height: 20%;
+	padding: 0px;
+}
+
+body > header #sub_header_row_5
+{
+	height: 20%;
+	padding: 0px;
+}
+
+body > header #sub_header_offset
+{
+	height: 100%;
+	padding : 0px;
+	background-color: #FFFFFF;
+	z-index: 2;
+}
+
+body > header #sub_header_row_1 > #sub_header_1_1
+{
+	height: 100%;
+	padding : 0px;
+	background-color: #FFFFFF;
+	z-index: 2;
+	overflow: hidden;
+}
+
+body > header #sub_header_row_2  > #sub_header_1_2
+{
+	height: 100%;
+	padding : 0px;
+	background-color: #FFFFFF;
+	z-index: 2;
+	overflow : hidden;
+}
+
+body > header #sub_header_row_3  > #sub_header_1_3
+{
+	height: 100%;
+	padding : 0px;
+	background-color: #FFFFFF;
+	z-index: 2;
+	overflow : hidden;
+}
+
+
+body > header #sub_header_row_4  > #sub_header_1_4
+{
+	height: 100%;
+	padding : 0px;
+	background-color: #FFFFFF;
+	z-index: 2;
+	overflow : hidden;
+}
+
+
+body > header #sub_header_row_5  > #sub_header_1_5
+{
+	height: 100%;
+	padding : 0px;
+	background-color: #FFFFFF;
+	z-index: 2;
+	overflow : hidden;
+}
+
+
+@media all and (max-width : 992px)
+{
+
+	body > header .top_sub_menu_item
+	{
+		font-size : 15px;
+		font-weight: 500;
+		float : right;
+		width : 30%;
+		text-align : center;
+		line-height: 30px;
+		height: 100%;
+		color : #323232;
+		line-height: 50px;
+	}
+}
+
+
+@media all and (min-width : 992px)
+{
+	
+	body > header .top_sub_menu_item
+	{
+		font-size : 15px;
+		font-weight: 500;
+		float : right;
+		width : 30%;
+		text-align : center;
+		line-height: 30px;
+		height: 100%;
+		color : #323232;
+
+	}
+}
+
+
+body > header > #sub_header_2
+{
+	display: none;
+	height: 250px;
+	padding: 0px;
+}
+
+
+
+/* �ѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤ� */
+
+
+
+body > nav
+{
+	width : 100%;
+}
+
+body > nav > #nav_row_1
+{
+
+}
+
+body > nav > #nav_row_1 > #first_title
+{
+	font-size : 35px;
+	font-weight: 600;
+	text-align : center;
+	margin-top : 50px;
+	margin-bottom : 50px;
+
+}
+
+body > nav > #nav_row_2
+{
+	margin: 1% 0% 0% 0%;
+	height : 85px;
+}
+
+body > nav >#nav_row_2 > #mini_header
+{
+	height: 100%
+}
+
+body > nav > #nav_row_2 > #mini_header > .mini_header_box
+{
+	text-align: center;
+	width: 50%;
+	height: 100%;
+	background-color : white;
+	float : left;
+	line-height: 85px;
+	font-size: 19px;	
+	font-weight : 550;
+}
+
+body > nav > #nav_row_3
+{
+	height: 3px;
+	background-color :#848484;
+}
+
+body> nav > #nav_row_3 > #nav_select_line
+{
+	height: 100%;	
+}
+
+body > nav > #nav_row_3 > #nav_select_line > .mini_header_select
+{
+	width: 50%;
+	height: 100%;
+	display: block;
+	float : left;
+}
+
+body > nav > #nav_row_3 > #nav_select_line > #partner_company_select
+{
+	background-color : #EB5050;
+}
+
+
+
+/* �ѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤ� */
+
+
+
+
+
+
+body > content
+{
+	width : 100%;
+	flex-grow : 1;
+}
+
+body > content > #content_row_1 
+{
+	height: 50px;
+}
+
+
+body > content > #content_row_2
+{
+	width : 100%;
+	margin : 75px 0px;
+}
+
+
+body > content > #content_row_2 > #content_col_1 > .middle_title_box
+{
+	font-size : 25px;
+	width : 100%;
+	border-bottom : 3px solid #bebebe;
+}
+
+
+body > content > #content_row_2 > #content_col_1 > .company_box
+{
+	width : 100%;
+	display : block;
+	margin : 50px auto;
+}
+
+body > content > #content_row_2 > #content_col_1 > .company_box > .company_link
+{
+	width : 250px;
+	height : 100px;
+	float : left;
+	margin : 10px;
+	margin-right:30px;
+	
+	display : block;
+	text-align : center;
+	
+	border: 7px ridge #F7F7F7;
+}
+
+body > content > #content_row_2 > #content_col_1 > .company_box > .company_link > .logo_img
+{
+	width: 75%;
+	height : 75%;
+	margin-top : 10px;
+}
+
+
+
+body > content > #content_row_3
+{
+	width : 100%;
+	margin : 75px 0px;
+}
+
+
+body > content > #content_row_3 > #content_col_1 > .middle_title_box
+{
+	font-size : 25px;
+	width : 100%;
+	border-bottom : 3px solid #bebebe;
+}
+
+
+body > content > #content_row_3 > #content_col_1 > .company_box
+{
+	width : 100%;
+	display : block;
+	margin : 50px auto;
+}
+
+body > content > #content_row_3 > #content_col_1 > .company_box > .company_link
+{
+	width : 250px;
+	height : 100px;
+	float : left;
+	margin : 10px;
+	margin-right:30px;
+	
+	display : block;
+	text-align : center;
+	
+	border: 7px ridge #F7F7F7;
+}
+
+body > content > #content_row_3 > #content_col_1 > .company_box > .company_link > .logo_img
+{
+	width: 75%;
+	height : 75%;
+	margin-top : 10px;
+}
+
+body > content > #content_row_4
+{
+	width : 100%;
+	margin : 75px 0px;
+}
+
+
+body > content > #content_row_4 > #content_col_1 > .middle_title_box
+{
+	font-size : 25px;
+	width : 100%;
+	border-bottom : 3px solid #bebebe;
+}
+
+
+body > content > #content_row_4 > #content_col_1 > .company_box
+{
+	width : 100%;
+	display : block;
+	margin : 50px auto;
+}
+
+body > content > #content_row_4 > #content_col_1 > .company_box > .company_link
+{
+	width : 250px;
+	height : 100px;
+	float : left;
+	margin : 10px;
+	margin-right:30px;
+	
+	display : block;
+	text-align : center;
+	
+	border: 7px ridge #F7F7F7;
+}
+
+body > content > #content_row_4 > #content_col_1 > .company_box > .company_link > .logo_img
+{
+	width: 75%;
+	height : 75%;
+	margin-top : 10px;
+}
+
+body > content > #content_row_5
+{
+	width : 100%;
+	margin : 75px 0px;
+}
+
+
+body > content > #content_row_5 > #content_col_1 > .middle_title_box
+{
+	font-size : 25px;
+	width : 100%;
+	border-bottom : 3px solid #bebebe;
+}
+
+
+body > content > #content_row_5 > #content_col_1 > .company_box
+{
+	width : 100%;
+	display : block;
+	margin : 50px auto;
+}
+
+body > content > #content_row_5 > #content_col_1 > .company_box > .company_link
+{
+	width : 250px;
+	height : 100px;
+	float : left;
+	margin : 10px;
+	margin-right:30px;
+	
+	display : block;
+	text-align : center;
+	
+	border: 7px ridge #F7F7F7;
+}
+
+body > content > #content_row_5 > #content_col_1 > .company_box > .company_link > .logo_img
+{
+	width: 75%;
+	height : 75%;
+	margin-top : 10px;
+}
+
+
+body > content > #content_row_6
+{
+	width : 100%;
+	margin : 75px 0px;
+}
+
+
+body > content > #content_row_6 > #content_col_1 > .middle_title_box
+{
+	font-size : 25px;
+	width : 100%;
+	border-bottom : 3px solid #bebebe;
+}
+
+
+body > content > #content_row_6 > #content_col_1 > .company_box
+{
+	width : 100%;
+	display : block;
+	margin : 50px auto;
+}
+
+body > content > #content_row_6 > #content_col_1 > .company_box > .company_link
+{
+	width : 250px;
+	height : 100px;
+	float : left;
+	margin : 10px;
+	margin-right:50px;
+	
+	display : block;
+	text-align : center;
+	
+	border: 7px ridge #F7F7F7;
+}
+
+body > content > #content_row_6 > #content_col_1 > .company_box > .company_link > .logo_img
+{
+	width: 75%;
+	height : 75%;
+	margin-top : 10px;
+}
+
+/* �ѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤѤ� */
+
+
+
+body > footer
+{
+	width : 100%;
+	height : 110px;
+}
+
+body > footer > #container_row_98
+{
+	width : 100%;
+	height : 1px;
+	background-color:#D4d4d4;
+	padding :0px;
+}
+
+
+body > footer > #container_row_99
+{
+	width : 100%;
+	height : 97px;
+	margin-top : 9px;
+	padding : 0px;
+}
+
+body > footer > #container_row_99 > #footer_text
+{
+	height : 100%;
+}
+
+body > footer > #container_row_99 > #footer_text > #footer_top_text
+
+
+
+body > footer > #container_row_99 > #footer_logo
+{
+	height : 100%;
+}
+
+body > footer > #container_row_99 > #footer_logo > #footer_logo_img
+{
+	height : 70px;
+	margin-top : 15px;
+}
+
+
+
